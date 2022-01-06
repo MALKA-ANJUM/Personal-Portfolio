@@ -1,0 +1,584 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:wght@100;300;400;700;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Roboto', sans-serif; */
+}
+@font-face {
+    font-family: "brandon grotesque";
+    src: url(Brandon-Grotesque-Font-Family.zip);
+}
+img{
+    width: 100%;
+}
+.header{
+    background-image: url(profile.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    position: relative;
+}
+.title{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+   
+}
+.title p i{
+    color: #fff;
+    font-size: 1.55em;
+    font-weight: 300;
+    
+}
+.title h1{
+    color: #fff;
+    font-size: 3.5em;
+    letter-spacing: 1px;
+    padding-top: 0.2em;
+}
+.journey{
+    width: 900px;
+    max-width: 100%;
+    margin: 3em auto;
+}
+.journey-title h2{
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 2em;
+    position: relative;
+    width: 355px;
+    margin: 1em auto;
+    color: #333333;
+}
+.journey-title h2::before{
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 90px;
+    height: 2px;
+    background: #333333;
+    display: block;
+}
+.journey-title h2::after{
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 0;
+    width: 90px;
+    height: 2px;
+    background: #333333;
+    display: block;
+}
+.card{
+    display: flex;
+    justify-content: space-between;
+}
+.card-img{
+    width: 19%;
+}
+.card-info{
+    width: 76%;
+   
+}
+.card-info h3{
+    padding-bottom: 0.6em;
+    
+}
+.card-info h3 a{
+    font-size: 1.2em;
+    color: rgb(38, 117, 207);
+    font-weight: 500;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+}
+.card-info h5{
+    font-family: 'Roboto', sans-serif;
+    color: #5E9516;
+    font-size: 1em;
+   
+}
+.card-info h5 em{
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+}
+.card-info h6{
+    color: #50555C;
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    padding: 0.5em 0;
+}
+.card-info p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 0.95em;
+    color: #000;
+    padding: 0.7em 0;
+    line-height: 1.5;
+}
+.card-info ul{
+    margin-left: 2em;
+}
+.card-info ul li{
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    line-height: 1.4;
+    font-size: 0.92em;
+    font-weight: 300;
+}
+.card-info ul li a{
+    font-weight: 900;
+    color: #3377CC;
+}
+.card-info p a{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: #fff;
+    background: #1B232B;
+    margin: 0 auto;
+    width: 70%;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    padding: 0.6em;
+    border-radius: 50px;
+    font-size: 1.3em;
+}
+
+/* ***************thought*********** */
+.thoughts{
+    background: url(pic-6.jfif);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 3em;
+}
+.thoughts-title{
+    max-width: 1060px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+}
+.thoughts-title h2{
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.9em;
+    position: relative;
+    width: 360px;
+    margin: 0.5em auto;
+    color: #fff;
+}
+.thoughts-title h2::before{
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 80px;
+    height: 2px;
+    background: #fff;
+    display: block;
+}
+.thoughts-title h2::after{
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 0;
+    width: 80px;
+    height: 2px;
+    background: #fff;
+    display: block;
+}
+.thoughts-title p{
+    text-align: center;
+    color: #fff;
+    padding: 1em;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.1em;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    line-height: 1.7;
+}
+.thoughts-title p a{ 
+    font-weight: 700;
+    color: #fff;
+}
+.thoughts-details{
+    max-width: 1060px;
+    width: 100%;
+    margin: 0 auto;
+    
+
+}
+
+.thoughts-details p{
+    text-align: center;
+    color: #fff;
+    padding: 1em 0;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.1em;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+.thoughts-img{
+   
+    display: flex;
+    justify-content: space-between;
+    
+}
+.thoughts-img a{
+    width: 47%;
+    margin: 0.7em;
+    
+    
+}
+.thoughts-img a:hover{
+    width: 50%;
+    margin: 0;
+    transition: 0.5s;
+}
+.communities{
+    width: 1100px;
+    max-width: 100%;
+    margin: 3em auto;
+}
+
+.communities-title{
+    padding: 1em;
+    text-align: center;
+
+}
+.communities-title h2{
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.8em;
+    font-weight: 900;
+    position: relative;
+    width: 430px;
+    margin: 0 auto;
+    color: #222222;
+}
+.communities-title h2::before{
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 85px;
+    height: 2px;
+    background: #222222;
+    display: block;
+}
+.communities-title h2::after{
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 0;
+    width: 85px;
+    height: 2px;
+    background: #222222;
+    display: block;
+}
+.communities-title p{
+    text-align: center;
+    color: #222222;
+    padding: 0.8em;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.1em;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    line-height: 1.7;
+}
+.communities-card{
+    display: flex;
+    justify-content: center;
+}
+.card-details{
+   width: 30%;
+   border: 1px solid #B2BBC3;
+   margin: 0.8em;
+   padding: 1.5em;
+}
+.card-details h4{
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    font-size: 1.3em;
+}
+.card-details p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 1em;
+    line-height: 1.4;
+    padding-top: 0.5em;
+}
+.card-details a{
+    color: #000;
+}
+.system{
+    background: url(pic-2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 1.5em;
+}
+.system-title{
+    max-width: 1060px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+}
+.system-title h2{
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.8em;
+    position: relative;
+    width: 350px;
+    margin: 1.8em auto;
+    color: #fff;
+}
+.system-title h2::before{
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 90px;
+    height: 2px;
+    background: #fff;
+    display: block;
+}
+.system-title h2::after{
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 0;
+    width: 90px;
+    height: 2px;
+    background: #fff;
+    display: block;
+}
+.system-details ul li{
+    list-style: none;
+    padding: 0.4em;
+}
+.system-details ul li a{
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.7em;
+}
+.system-details ul li a:hover{
+    color: #3377CC;
+}
+.system-details p a{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: #fff;
+    background: #1B232B;
+    margin: 1.5em auto;
+    width: 350px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    padding: 0.6em;
+    border-radius: 50px;
+    font-size: 1.3em;
+}
+.social-links{
+    max-width: 1100px;
+    width: 100%;
+    margin: 5em auto;
+    padding: 1em;
+}
+.social-links-title{
+    padding: 1em;
+    text-align: center;
+
+}
+.social-links-title h2{
+    line-height: 1.5;
+    font-family: 'Lato', sans-serif;
+    font-size: 2em;
+    font-weight: 900;
+    position: relative;
+    width: 900px;
+    margin: 0 auto;
+    color: #333333;
+}
+.social-links-title h2::before{
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 85px;
+    height: 2px;
+    background: #333333;
+    display: block;
+}
+.social-links-title h2::after{
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 0;
+    width: 85px;
+    height: 2px;
+    background: #333333;
+    display: block;
+}
+.social-links-title p{
+    text-align: center;
+    color: #667788;
+    padding: 0.8em;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.35em;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    line-height: 1.7;
+}
+.social-links-title p a{
+    font-weight: 900;
+    color: #3377CC;
+    text-decoration: none;
+}
+.social-links-title p a:hover{
+    color: #3D8FF5;
+}
+.social-links-details{
+    display: flex;
+    justify-content: center;
+}
+.social-links-details a{
+    width: 11%;
+    margin: 1em;
+    transition: 0.5s;
+}
+.social-links-details a:hover{
+    width: 13%;
+    margin: 0.45em;
+
+}
+.footer{
+   position: fixed;
+   bottom: 0;
+   right: 0;
+  
+}
+.footer div{
+    width: 30px;
+    height: 30px;
+    background: #000;
+    margin: 0.5em 1em;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+}
+@media screen and (max-width:730px) {
+    
+    .title h1{
+      
+        font-size: 7em;
+        
+    }
+    .journey-title h2::before,
+    .thoughts-title h2::before,
+    .communities-title h2::before,
+    .system-title h2::before,
+    .social-links-title h2::before{
+        content: "";
+        position: absolute;
+        top: 130%;
+        left: 37%;
+    }
+    .journey-title h2::after,
+    .thoughts-title h2::after,
+    .communities-title h2::after,
+    .system-title h2::after,
+    .social-links-title h2::after{
+        content: "";
+        width: 0;
+        height: 0;
+      
+       
+    }
+    .communities-title p{
+        padding-top: 1.5em;
+    }
+ 
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    .card{
+        flex-direction: column;
+    }
+    .card-img{
+        width: 65%;
+        margin: 1em auto;
+    }
+    .card-info{
+        width: 65%;
+        margin: 1em auto;
+    }
+    .card-info p a{
+        width: 90%;
+        text-align: center;
+    }
+    .thoughts{
+
+        padding: 1em 5em;
+    }
+    .thoughts-img{
+   
+        flex-direction: column;
+        
+    }
+    .thoughts-img a{
+       width: 88%;
+       margin: 1em auto;
+        
+        
+    }
+    .thoughts-img a:hover{
+        width: 100%;
+        margin: 0em auto;
+        
+    }
+    .communities-title{
+       width: 500px;
+       margin: 0 auto;
+
+    }
+    .communities-card{
+      flex-direction: column;
+    }
+    .card-details{
+       width: 65%;
+       
+       margin: 0.6em auto;
+    }
+    
+    
+}
